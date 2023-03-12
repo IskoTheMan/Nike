@@ -1,0 +1,262 @@
+.container{
+max-width:1116px;	
+margin:0 auto;
+}
+*{
+margin:0;
+padding:0;	
+box-sizing:border-box;
+font-family: 'Montserrat';
+}
+a{
+text-decoration:none;
+color:inherit;	
+}
+ul{
+list-style:none;
+}
+.btn{
+background:#D7B399;	
+border:none;
+color:white;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: 0.03em;
+padding:18px 30px;
+}
+body{
+background:#F9F6F1;	
+}
+.dark{
+background:#212121;
+color:white;	
+}
+header{
+padding:98px 0 42.5px 0;	
+}
+.menu-content{
+display:flex;
+justify-content:space-between;
+margin-bottom:30px;
+}
+.header-content{
+display:flex;
+justify-content:space-between;
+}
+.stock-content{
+padding:80px 0 69px 0;
+}
+.discount-content{
+padding:70px 0;
+}
+.footer-content{
+padding:80px 0;
+}
+.copyright-content{
+padding: 30px 0 ;
+}
+.menu-content a{
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+letter-spacing: 0.03em;
+color: #212121;
+margin-right:50.03px;
+}
+.menu-content .right a:last-child{
+margin-right:0;
+}
+.header-content .left h2{
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 37px;
+letter-spacing: 0.02em;
+color: #000000;
+margin-bottom:44.5px;
+}
+.header-content .left h1{
+font-style: normal;
+font-weight: 700;
+font-size: 55px;
+line-height: 67px;
+letter-spacing: 0.04em;
+color: #000000;
+margin-bottom:24.6px;
+}
+.header-content .left p{
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: 0.03em;
+color: #000000;	
+max-width:514px;
+margin-bottom:24.6px;
+}
+.old-price{
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+text-align: right;
+letter-spacing: 0.05em;
+text-decoration: line-through;
+color: #000000;
+margin-bottom:44.29px;	
+animation:UpAndDown 2s infinite;
+}
+.new-price{
+font-style: normal;
+font-weight: 700;
+font-size: 42px;
+line-height: 51px;
+text-align: right;
+letter-spacing: 0.02em;
+color: #D84033;
+animation:UpAndDown 2s infinite;	
+}
+.header-content .right img{
+max-width:561px;	
+}
+.stock-content h2{
+text-align:center;	
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 37px;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform:uppercase;
+color: #FFFFFF;
+margin-bottom:23px;
+}
+.stock-content p{
+font-style: normal;
+font-weight: 300;
+font-size: 21px;
+line-height: 26px;
+text-align: center;
+color: #FFFFFF;
+}
+.stock-content span{
+font-weight: 300;
+}
+.discount-content{
+display:flex;
+justify-content:space-between;	
+}
+.discount-content h2{
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 37px;
+text-align: center;
+letter-spacing: 0.02em;
+color: #000000;
+text-transform:uppercase;
+}
+.footer-content{
+display:flex;
+justify-content:flex-end;
+font-style: normal;
+}
+.footer-content ul:nth-child(1){
+margin-right:84px;
+}
+.footer-content ul:nth-child(2){
+margin-right:76px;
+}
+.footer-content ul:nth-child(3){
+margin-right:53px;
+}
+.footer-content a{
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+color: #CBCFD4;	
+}
+.footer-content h3{
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 12px;
+text-transform: uppercase;
+color: #FFFFFF;	
+margin-bottom:20px;
+}
+.copyright-content{
+display:flex;
+justify-content:space-between;	
+}
+.social{
+background-repeat:no-repeat;
+padding-left:29px;
+background-position:left center;	
+}
+.face{
+background-image:url(img/fb.png);	
+}
+.vk{
+background-image:url(img/wk.png);	
+}
+.insta{
+background-image:url(img/insta.png);	
+}
+.discount-content input{
+width: 255px;
+height: 40px;
+background: #F9F6F1;
+border: 1px solid #000000;
+margin-right:41px;
+padding:13px 20px;
+}
+.discount-content button{
+padding:11px 14px;
+width:185px;
+}
+.btn:hover{
+background: #7C5A42;	
+transition:2s;
+transform:scale(1.1);
+}
+.menu-content a:hover{
+display:inline-block;
+color: #7C5A42;
+text-decoration:underline;
+transition:2s;
+transform:scale(1.1);
+}
+@keyframes UpAndDown{
+0%{
+transform:translateY(0px);
+}
+50%{
+transform:translateY(20px);
+}
+100%{
+transform:translateY(0px);
+}
+}
+.footer-content a:hover{
+color:orange;
+transition:1s;
+transform:scale(1.1);	
+display:inline-block;
+}
+@keyframes Rotate{
+0%{
+transform:rotate(0deg) scale(1) ;
+}
+100%{
+transform:rotate(360deg)scale(0.8);
+}
+}
+.header-discount{
+animation:Rotate 2s infinite linear;
+display:inline-block;
+}
